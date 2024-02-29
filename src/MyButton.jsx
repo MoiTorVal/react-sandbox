@@ -1,5 +1,5 @@
-function MyButton() {
-  return <button>I'm a button</button>;
+function MyButton({ count, onClick }) {
+  return <button onClick={onClick}>Clicked {count} times</button>;
 }
 
 export default MyButton;
